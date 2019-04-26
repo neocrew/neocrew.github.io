@@ -16,3 +16,9 @@ $(document).ready(function(){
         items:8
     });
   });
+
+  if($(window).width() < 420){
+    $(".owl-carousel").owlCarousel({
+        items:3
+    });
+  }
