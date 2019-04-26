@@ -102,6 +102,56 @@ nav{
     justify-content: space-between;
 }
 
+.portfolio  {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;  
+}
+
+.portfolio h4 {
+    background: #424147;
+    padding: 0 8px;
+    font-size: 18px;
+    display: inline-block;
+    color: #f5e10c;
+    margin-bottom: 30px;   
+}
+
+.portfolio p {
+    font-size: 16px;
+    color: #424146;
+}
+
+.toggles button {
+    background-color: white;
+    border: none;
+    color: #424146;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 0 5px;
+    margin-top: 20px;
+}
+
+.toggles button:after{
+    content: ' / ';
+}
+
+.toggles button:last-child:after{
+    content: '';
+}
+
+.posts {
+    width: 90%;
+    display: grid;
+    margin: 10px auto;
+    grid-template-columns: auto auto auto auto;
+}
+
+.posts img {
+    width: 98%;
+}
+
+
 @media screen and (max-width: 420px) {
     
     .header-container {
