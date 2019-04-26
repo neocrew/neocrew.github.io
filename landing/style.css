@@ -243,6 +243,10 @@ footer h4 {
     margin-left: 50px;
 }
 
+.tweets-container h4 {
+    margin-bottom: 25px;
+}
+
 .social-connecting {
     margin-top: 50px;
     display: inline-flex;
