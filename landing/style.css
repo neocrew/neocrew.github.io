@@ -42,7 +42,7 @@ nav{
 }
 
 .top-slide {
-    background: url(img/slider_bg.jpg) no-repeat;
+    background: url(img/slider_bg.jpg) no-repeat center;
     padding-top: 120px;
     padding-bottom: 280px;
 }
@@ -57,6 +57,7 @@ nav{
     display: inline;
     font-size: 70px;
     padding: 0 13px;
+    margin-left: 40px;
 }
 
 .top-slide :nth-child(2){
@@ -69,6 +70,8 @@ nav{
     font-size: 24px;
     color: white;
     padding: 0 13px;
+    margin-left: 40px;
+
 }
 
 .specialize-container {
@@ -151,6 +154,31 @@ nav{
     width: 98%;
 }
 
+.brand-slider  {
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;  
+    margin-bottom: 100px;
+}
+
+.brand-slider h4 {
+    margin-top: 40px;
+    background: #424147;
+    padding: 0 8px;
+    font-size: 18px;
+    display: inline-block;
+    color: #f5e10c;
+    margin-bottom: 30px;   
+}
+
+.brand-slider p {
+    font-size: 16px;
+    color: #424146;
+}
+
+.owl-carousel {
+    margin-top: 30px;
+}
 
 @media screen and (max-width: 420px) {
     
@@ -197,5 +225,36 @@ nav{
     }
     nav {
         margin-right: 15px; 
+    }
+
+    .top-slide {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .top-slide h2 {
+        font-size: 32px;
+        margin-left: 0px;
+    }
+    .top-slide p {
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .specialize-container {
+        font-size: 16px;
+    }
+    .specialize-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .bottom-card {
+        width: 250px;
+        margin: 0 auto;  
+    }
+    .posts {
+        width: 90%;
+        display: grid;
+        margin: 10px auto;
+        grid-template-columns: auto;
     }
 }

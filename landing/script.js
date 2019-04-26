@@ -10,3 +10,9 @@ $(function () {
         $('.post').show(500);
     });
 });
+
+$(document).ready(function(){
+    $(".owl-carousel").owlCarousel({
+        items:8
+    });
+  });
