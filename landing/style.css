@@ -273,6 +273,8 @@ footer h4 {
     color: #ffea00;
 }
 
+
+
 .folowUs h4 {
     margin-top: 35px;
     margin-bottom: 20px;
@@ -280,12 +282,14 @@ footer h4 {
 
 .folow {
     border-bottom: 2px solid #ffea00;
-    height: 55px;
+    height: 25px;
     width: 270px;
+    border-left: 2px solid #fff;
+    margin-top: 25px;
 }
 
 .folow img {
-    margin: 32px 0 0 270px;
+    margin: 0 0 0 242px;
     position: relative;
 }
 
